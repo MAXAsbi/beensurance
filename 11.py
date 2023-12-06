@@ -20,7 +20,7 @@ def get_svalue(val):
         if val == key:            
             return value
 def get_rvalue(val):    
-    feature_dict = {"southwest":1,"northwest":2,"southeast":3,"northeast":4}    
+    feature_dict = {"Southwest":1,"Northwest":2,"Southeast":3,"Northeast":4}    
     for key,value in feature_dict.items():        
         if val == key:            
             return value
